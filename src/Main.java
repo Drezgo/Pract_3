@@ -4,22 +4,22 @@ public class Main {
         //завдання 1
         int a, b;
         a = 650;
-        b = 510;
+        b = 500;
         for ( ; a>=b; b += 10) System.out.print(b+" ");
         System.out.println();
 
         b = 500;
-        while(a > b) {
-            b += 10;
+        while(a >= b) {
             System.out.print(b+" ");
+            b += 10;
         }
         System.out.println();
 
         b = 500;
         do {
-            b += 10;
             System.out.print(b+" ");
-        } while (a > b);
+            b += 10;
+        } while (a >= b);
         System.out.println();
 
 
