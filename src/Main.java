@@ -88,13 +88,11 @@ public class Main {
         int l = 0;
         while (n<999999) {
             //int n1 = n / 1000;
-            //System.out.println(n1);
             int n11 = n /100000;
             int n12 = n /10000 % 10;
             int n13 = n /1000 % 10;
 
             int n2 = n % 1000;
-            //System.out.println(n2);
             int n21 = n2 /100;
             int n22 = n2 /10 % 10;
             int n23 = n2 % 10;
